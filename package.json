@@ -1,0 +1,29 @@
+{
+  "name": "devat-next-auth-yt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@next-auth/mongodb-adapter": "^1.1.1",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.3",
+    "isomorphic-unfetch": "^3.1.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "next": "^12.2.3",
+    "next-auth": "^4.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^1.3.0"
+  }
+}
