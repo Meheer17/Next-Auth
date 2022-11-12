@@ -35,7 +35,7 @@ export default function Home() {
     async function createProject(esa) {
       console.log(esa)
         try {
-            const res = await fetch(`http://localhost:3000/api/user/${esa}`, {
+            const res = await fetch(`https://next-auth-six-sooty.vercel.app/api/user/${esa}`, {
                     method: 'PUT',
                     headers:{
                         "Accept":"applocation/json",
